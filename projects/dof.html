@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Integración DOF & SIDOF | Valeria Olmos</title>
+    <link rel="icon" type="image/png" href="../assests/LogoVale.png">
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <a href="../index.html">
+            <img src="../assests/LogoVale.png"
+                alt="Logo Valeria Olmos"
+                class="logo">
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">About</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- HERO -->
+    <section class="project-hero">
+
+        <div class="project-info">
+
+            <h1>Integración DOF & SIDOF</h1>
+
+            <p>
+                Proyecto enfocado en la integración visual y funcional del
+                Diario Oficial de la Federación para unificar la experiencia
+                de consulta entre el DOF tradicional y SIDOF.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- IMAGEN PRINCIPAL -->
+    <section class="project-content">
+
+        <div class="project-section">
+
+            <img src="../assests/DOFM.PNG"
+                alt="Propuesta DOF Unificado"
+                class="project-image">
+
+        </div>
+
+        <!-- CONTEXTO -->
+        <div class="project-section">
+
+            <h2>Contexto</h2>
+
+            <p>
+                El Diario Oficial de la Federación contaba con dos plataformas
+                separadas: el DOF tradicional y SIDOF, una versión moderna
+                que dependía de la información generada por el sistema anterior.
+            </p>
+
+            <p>
+                Esta separación provocaba diferencias visuales y una experiencia
+                fragmentada para los usuarios al consultar información oficial.
+            </p>
+
+        </div>
+
+        <!-- ANTES -->
+        <div class="project-section">
+
+            <h2>Plataformas Existentes</h2>
+
+            <h3>DOF Tradicional</h3>
+
+            <img src="../assests/DOF.PNG"
+                alt="DOF Tradicional"
+                class="project-image">
+
+            <h3>SIDOF</h3>
+
+            <img src="../assests/SIDOF.PNG"
+                alt="SIDOF"
+                class="project-image">
+
+        </div>
+
+        <!-- PROBLEMA -->
+        <div class="project-section">
+
+            <h2>Problema</h2>
+
+            <ul class="project-list">
+
+                <li>Experiencia fragmentada entre plataformas.</li>
+
+                <li>Identidad visual inconsistente.</li>
+
+                <li>Navegación separada.</li>
+
+                <li>Dependencia funcional entre sistemas.</li>
+
+                <li>Dificultad para localizar información rápidamente.</li>
+
+            </ul>
+
+        </div>
+
+        <!-- OBJETIVO -->
+        <div class="project-section">
+
+            <h2>Objetivo</h2>
+
+            <p>
+                Diseñar una propuesta de integración visual y funcional que
+                permitiera unificar la experiencia de usuario, conservar la
+                identidad institucional del Gobierno de México y mejorar la
+                navegación dentro de la plataforma.
+            </p>
+
+        </div>
+
+        <!-- ANALISIS -->
+        <div class="project-section">
+
+            <h2>Análisis de Arquitectura</h2>
+
+            <p>
+                Se realizó un análisis de la arquitectura existente para
+                comprender la relación entre DOF y SIDOF, identificar
+                dependencias y definir oportunidades de integración.
+            </p>
+
+            <img src="../assests/DiagramaArqui.PNG"
+                alt="Arquitectura del sistema"
+                class="project-image">
+
+        </div>
+
+        <!-- E-R -->
+        <div class="project-section">
+
+            <h2>Modelo de Datos</h2>
+
+            <p>
+                Se elaboró un diagrama Entidad-Relación para comprender la
+                estructura de la información y las relaciones entre usuarios,
+                publicaciones, documentos, dependencias y búsquedas.
+            </p>
+
+            <img src="../assests/DiagramaER.PNG"
+                alt="Diagrama Entidad Relación"
+                class="project-image">
+
+        </div>
+
+        <!-- PROPUESTA -->
+        <div class="project-section">
+
+            <h2>Propuesta de Integración</h2>
+
+            <p>
+                Como parte de la propuesta se definieron los principales flujos de
+                interacción para los usuarios, buscando simplificar la consulta y
+                navegación entre los servicios del DOF y SIDOF.
+            </p>
+
+            <img src="../assests/DiagramaCasos.PNG"
+                alt="Propuesta Integrada"
+                class="project-image">
+
+        </div>
+
+        <!-- RESPONSIVE -->
+        <div class="project-section">
+
+            <h2>Diseño Responsivo</h2>
+
+            <p>
+                Como parte de la propuesta de integración, se desarrolló una interfaz
+                adaptable a distintos tamaños de pantalla, garantizando una experiencia
+                de usuario consistente tanto en equipos de escritorio como en dispositivos
+                móviles.
+            </p>
+
+            <p>
+                Se realizaron ajustes en la distribución de componentes, navegación y
+                jerarquía visual para facilitar la consulta de información oficial desde
+                cualquier dispositivo.
+            </p>
+
+            <img src="../assests/Respon.PNG"
+                alt="Versión responsiva del DOF"
+                class="project-image">
+
+        </div>
+
+        <!-- TECNOLOGIAS -->
+        <div class="project-section">
+
+            <h2>Tecnologías Utilizadas</h2>
+
+            <div class="tech-container">
+
+                <span class="tech">Java 21</span>
+
+                <span class="tech">Spring Boot</span>
+
+                <span class="tech">Spring Security</span>
+
+                <span class="tech">Maven</span>
+
+                <span class="tech">Apache Tomcat</span>
+
+                <span class="tech">Bootstrap</span>
+
+                <span class="tech">HTML</span>
+
+                <span class="tech">CSS</span>
+
+                <span class="tech">JavaScript</span>
+
+                <span class="tech">IntelliJ IDEA</span>
+
+            </div>
+
+        </div>
+
+        <!-- ROL -->
+        <div class="project-section">
+
+            <h2>Rol y Responsabilidades</h2>
+
+            <ul class="project-list">
+
+                <li>Análisis funcional del sistema.</li>
+
+                <li>Investigación de arquitectura existente.</li>
+
+                <li>Diseño UX/UI.</li>
+
+                <li>Desarrollo Frontend.</li>
+
+                <li>Elaboración de diagramas técnicos.</li>
+
+                <li>Propuesta de integración visual.</li>
+
+                <li>Documentación del proyecto.</li>
+
+            </ul>
+
+        </div>
+
+        <!-- ESTADO -->
+        <div class="project-section">
+
+            <h2>Estado del Proyecto</h2>
+
+            <p>
+                La propuesta visual y funcional fue desarrollada y validada.
+                La integración definitiva con la base de datos institucional
+                se encontraba pendiente de una etapa posterior del proyecto,
+                por lo que la plataforma quedó preparada para su conexión futura.
+            </p>
+
+        </div>
+
+        <!-- RESULTADO -->
+        <div class="project-section">
+
+            <h2>Resultado</h2>
+
+            <p>
+                El proyecto permitió visualizar una experiencia unificada para
+                la consulta del Diario Oficial de la Federación, mejorando la
+                organización de la información, la consistencia visual y la
+                experiencia de navegación para los usuarios.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Valeria Olmos. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
